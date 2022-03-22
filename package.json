@@ -1,0 +1,23 @@
+{
+  "name": "esm-ts-auto-mock-example",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Example repo for ESM issue in ts-auto-mock",
+  "main": "app.ts",
+  "exports": "app.ts",
+  "scripts": {
+    "test": "mocha",
+    "start": "node --loader ts-node/esm app.ts"
+  },
+  "author": "Victor Neiman",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.2.2",
+    "ts-auto-mock": "^3.5.0",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "typescript": "^4.6.2"
+  }
+}
